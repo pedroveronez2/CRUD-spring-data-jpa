@@ -26,3 +26,46 @@ CREATE TABLE pessoa (
     nome VARCHAR(255),
     email VARCHAR(255)
 );
+```
+## Executando o Aplicativo
+
+- Clone este repositório:
+    ```
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+- Navegue até o diretório do projeto:
+    ```
+    cd seu-repositorio
+    ```
+- Execute o aplicativo Spring Boot:
+    ```
+    mvn spring-boot:run
+    ```
+O aplicativo será iniciado na porta padrão 8080.
+
+## Endpoints da API
+
+Listar todas as pessoas:
+
+Método: GET
+URL: http://localhost:8080/pessoas
+Obter uma pessoa por ID:
+
+Método: GET
+URL: http://localhost:8080/pessoas/{id}
+Adicionar uma pessoa:
+
+Método: POST
+URL: http://localhost:8080/pessoas
+Corpo da solicitação: JSON com dados da pessoa
+Atualizar uma pessoa por ID:
+
+Método: PUT
+URL: http://localhost:8080/pessoas/{id}
+Corpo da solicitação: JSON com dados atualizados da pessoa
+Excluir uma pessoa por ID:
+
+Método: DELETE
+URL: http://localhost:8080/pessoas/{id}
+ 
+
