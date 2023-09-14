@@ -19,7 +19,7 @@ Antes de executar o aplicativo, verifique se você tem o seguinte configurado no
 ```sql
 CREATE DATABASE crud_example;
 
-USE crud_example;
+USE crud_example;            
 
 CREATE TABLE pessoa (
     id INT AUTO_INCREMENT PRIMARY KEY,
